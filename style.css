@@ -1,0 +1,75 @@
+body {
+  background-color: skyblue;
+  text-align: center;
+  font-family: Happy Monkey;
+  color: white;
+}
+
+#title {
+  text-shadow: 0 0 5px black;
+}
+
+#birthday-person-img {
+  border-radius: 50%;
+  width: 200px;
+  border: 6px solid burlywood;
+}
+
+#age-year {
+  background-color: pink;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin: 14px 0 6px 0;
+}
+
+#age-date {
+  margin: 0;
+  background-color: pink;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.gift-img {
+  background-image: url(images/gift-cover.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  border: 8px solid white;
+  border-radius: 5px;
+  margin: 0 auto 50px;
+}
+
+#happy:hover {
+  background-image: url(images/happy.gif);
+}
+
+#hot:hover {
+  background-image: url(images/hot.gif);
+}
+
+#genius:hover {
+  background-image: url(images/genius.gif);
+}
+
+#badass:hover {
+  background-image: url(images/badass.gif);
+}
+
+#cheers:hover {
+  background-image: url(images/cheers.gif);
+}
+
+#cheers {
+  height: 200px;
+}
+
+a {
+  color: brown;
+}
